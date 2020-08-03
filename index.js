@@ -33,3 +33,4 @@ const reduceToTotal = function(arr, base=0){
   }
   return base;
 }
+
