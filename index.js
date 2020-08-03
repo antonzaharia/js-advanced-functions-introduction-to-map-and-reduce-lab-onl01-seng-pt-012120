@@ -7,5 +7,5 @@ const mapToNegativize = function(arr) {
   return toReturn;
 }
 const mapToNoChange = function(arr) {
-  
+
 }
