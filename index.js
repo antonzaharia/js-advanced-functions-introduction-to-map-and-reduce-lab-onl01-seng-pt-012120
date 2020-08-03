@@ -33,3 +33,18 @@ const reduceToTotal = function(arr, base=0){
   }
   return base;
 }
+const reduceToAllTrue = function(arr) {
+  for( let element of arr ){
+    switch (element) {
+      case 'light':
+        food = 'grapes';
+        break;
+      case 'moderate':
+        food = 'sushi';
+        break;
+      case 'famished':
+        food = 'lasagna';
+        break;
+    }
+  }
+}
