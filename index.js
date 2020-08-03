@@ -11,5 +11,5 @@ const mapToNoChange = function(arr) {
   for(let element of arr ) {
     toRenturn.push(element)
   }
-  return toRenturn;
+  return toReturn;
 }
