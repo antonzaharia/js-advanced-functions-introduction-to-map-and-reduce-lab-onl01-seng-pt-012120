@@ -36,9 +36,7 @@ const reduceToTotal = function(arr, base=0){
 const reduceToAllTrue = function(arr) {
   for( let element of arr ){
     switch (element) {
-      case false:
-        food = 'grapes';
-        break;
+      case true:
       case 'moderate':
         food = 'sushi';
         break;
