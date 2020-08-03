@@ -9,7 +9,7 @@ const mapToNegativize = function(arr) {
 const mapToNoChange = function(arr) {
   let toReturn = [];
   for(let element of arr ) {
-    toRenturn.push(element)
+    toReturn.push(element)
   }
   return toReturn;
 }
