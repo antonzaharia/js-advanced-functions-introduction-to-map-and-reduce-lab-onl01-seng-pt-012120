@@ -13,3 +13,6 @@ const mapToNoChange = function(arr) {
   }
   return toReturn;
 }
+const mapToDouble = function(arr) {
+  
+}
