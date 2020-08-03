@@ -31,4 +31,5 @@ const reduceToTotal = function(arr, base=0){
   for( let element of arr ){
     base += element;
   }
+  return base;
 }
