@@ -34,6 +34,7 @@ const reduceToTotal = function(arr, base=0){
   return base;
 }
 const reduceToAllTrue = function(arr) {
+  let returnValue = true;
   for( let element of arr ){
     if(!element) return false;
 
