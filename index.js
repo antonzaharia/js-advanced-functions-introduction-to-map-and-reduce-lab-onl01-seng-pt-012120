@@ -14,5 +14,9 @@ const mapToNoChange = function(arr) {
   return toReturn;
 }
 const mapToDouble = function(arr) {
-
+  let toReturn = [];
+  for( let element of arr ) {
+    toReturn.push(element * 2);
+  }
+  return toReturn;
 }
