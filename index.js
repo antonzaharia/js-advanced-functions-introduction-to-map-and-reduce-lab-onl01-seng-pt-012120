@@ -37,11 +37,8 @@ const reduceToAllTrue = function(arr) {
   for( let element of arr ){
     switch (element) {
       case true:
-      case 'moderate':
+      case false:
         food = 'sushi';
-        break;
-      case 'famished':
-        food = 'lasagna';
         break;
     }
   }
