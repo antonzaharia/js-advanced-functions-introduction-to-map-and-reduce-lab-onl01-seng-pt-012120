@@ -38,7 +38,6 @@ const reduceToAllTrue = function(arr) {
     switch (element) {
       case true:
       case false:
-        food = 'sushi';
         break;
     }
   }
