@@ -42,3 +42,12 @@ const reduceToAllTrue = function(arr) {
   }
   return returnValue;
 }
+const reduceToAnyTrue = function(arr) {
+  let returnValue = false;
+  for( let element of arr ){
+    if(element){
+      returnValue = true;
+    }
+  }
+  return returnValue;
+}
